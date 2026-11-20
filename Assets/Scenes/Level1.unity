@@ -6474,7 +6474,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -8226,10 +8226,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3332367677035883818, guid: 435a11d717f6e9d4ca8be9372ab529b9, type: 3}
-      propertyPath: onTriggerEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 927675657}
     - target: {fileID: 3677508519365865946, guid: 435a11d717f6e9d4ca8be9372ab529b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.36
@@ -8290,8 +8286,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spikes
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3332367677035883818, guid: 435a11d717f6e9d4ca8be9372ab529b9, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
